@@ -1,0 +1,10 @@
+@media (min-width: 1280px) {
+  .burger-menu {
+    display: none;
+  }
+  .flex,
+  .text-center {
+    min-width: 1200px;
+    margin: auto;
+  }
+}

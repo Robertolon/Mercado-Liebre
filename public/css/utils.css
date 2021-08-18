@@ -1,0 +1,32 @@
+.text-center {
+  text-align: center;
+  font-weight: bold;
+}
+.padding-bottom {
+  padding: 10px;
+}
+
+.w-50 {
+  width: 50%;
+}
+.padding {
+  padding: 0px 5px;
+}
+.w-100 {
+  width: 100%;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.article-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

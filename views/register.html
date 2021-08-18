@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/normalize.css" />
+        <link rel="stylesheet" href="/css/theme.css" />
+        <link rel="stylesheet" href="/css/utils.css" />
+
+        <link
+            rel="stylesheet"
+            href="/css/style-sm.css"
+            media="min-width:480px"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/style-md.css"
+            media="min-width:768px"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/style-lg.css"
+            media="min-width:1280px"
+        />
+
+        <title>mercado Liebre - Registro</title>
+    </head>
+    <body>
+     <header class="ml-yellow-background padding">
+       <div class="flex">
+          <div>
+             <img class="estilo-img" src="img/logo-mercado-liebre.svg" alt="logo-mercado-liebre" />
+          </div>
+          <div>
+             <input type="text" placeholder="buscar productos">
+             <BUtton><I class="fa fa-search"> </I></BUtton>
+          </div>
+       
+          <p class="text-center">
+            <i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin
+            tarjetas de creditos</p>
+       </div>
+          <nav id="ml-main-nav">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="#">Crea tu Compra</a><i class="far fa-id-card"></i>
+                </li>
+                <li>
+                    <a href="#">ingresá</a><i class="fas fa-sign-in-alt"></i>
+                </li>
+                <li>
+                    <a href="#">Mis Compras</a
+                    ><i class="fas fa-shopping-basket"></i>
+                </li>
+            </ul>
+          </nav>
+          <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+     </header>
+        <main class="padding">
+            <h1 class="h1-form">Registrate</h1>
+            <form action="#" class="estilo-formulario">
+                <p class="form-p">
+                    <label for="firstname">Nombre y Apellido</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Nombre y Apellido" />
+                    <p class="erorr">El nombre y apellido es requerido</p>
+                </p>
+                <p class="form-p">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" id="usuario" name="usuario">
+                </p>
+                <p class="form-p">
+                    <label for="Fecha">Fecha de Nacimiento</label>
+                    <input type="date" id="Fecha" name="Fecha">
+                </p>
+                <p class="form-p">
+                    <label for="address">Domicilio</label>
+                    <input type="text" id="address" name="address">
+                </p>
+                <p class="form-p">
+                  <h4>Perfil de Usuario</h4> 
+                  <input type="radio" name="perfil"value="comp">
+                  <label for="perfil" class="padding">Comprador</label>
+                  <input type="radio" name="perfil"value="vend">
+                  <label for="perfil" class="padding">Vendedor</label>
+                </p>
+                <p class="form-p">
+                 <h4>Interes</h4>
+                  <div  class="style-checbox">
+                  <input type="checkbox">
+                  <label for="interes" class="padding">Electro</label>
+                  </div>
+                  <div class="style-checbox">
+                  <input type="checkbox" name="interes"value="mda">
+                  <label for="interes" class="padding">Moda</label>
+                  </div>
+                  <div class="style-checbox">
+                  <input type="checkbox" name=interes value="hog">
+                  <label for="interes" class="padding">Hogar</label>
+                  </div>
+                  <div class="style-checbox">
+                  <input type="checkbox" name="interes" value="jug">
+                  <label for="interes" class="padding">Jugueteria</label>
+                  </div>
+                  <div class="style-checbox">
+                  <input type="checkbox" name="interes" value="vs">
+                  <label for="interes" class="padding">Vida sana</label>
+                  </div>
+                </p>
+                <p class="form-p">
+                    <label for="foto" class="form-p label">Sube tu Foto</label>
+                    <input type="file" name="foto" accept="image/*">
+                </p>
+                <p class="form-p">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="contraseña">
+                </p>
+                <p class="form-p">
+                    <label for="contraseña"> Confirma la Contraseña</label>
+                    <input type="password" name="contraseña">
+                </p>
+                <p>
+                    <button type="submit" class="boton-estilo">Enviar</button>
+                    <button type="reset" class="boton-estilo">Borrar</button>
+                </p>
+
+
+
+
+                <!-- <p class="form-p">
+                    <label for="contenido">Comentarios</label>
+                    <textarea
+                        name="comentarios"
+                        id="contenido"
+                        cols="30"
+                        rows="10"
+                    >
+contenido</textarea
+                    >
+                </p>
+                <p class="form-p">
+                    <label for="color">Seleccione un color</label>
+                    <select name="colores">
+                        <option value="#39b54a">verde</option>
+                        <option value="#666">gris</option>
+                        <option value="#31259c">azul</option>
+                        <button type="submit">enviar</button>
+                    </select>
+                </p>
+                <p class="form-p">
+                <label>Elegí el mes de tu cumpleaños</label>
+                <select name="mes">
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Mayo</option>
+                    <option value="6">Junio</option>
+                    <option value="7">Julio</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </select>
+                </p>
+                <p class="form-p">
+                    <label>DEJAMOS TUS COMENTARIOS</label>
+                    <textarea name="contenido"></textarea>
+                </p> -->
+                    
+                
+            </form>
+        </main>
+    </body>
+</html>

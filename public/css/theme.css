@@ -1,0 +1,64 @@
+body {
+  font-family: "roboto";
+  font-size: 12px;
+}
+.banner {
+  width: 100%;
+}
+
+.titulares {
+  font-size: 24px;
+}
+.precios {
+  font-size: 18px;
+}
+.descuentos {
+  font-size: 16px;
+}
+.descripciones {
+  font-size: 16px;
+}
+
+.ml-yellow-text {
+  color: #eac926;
+}
+.ml-yellow-background {
+  background-color: #eac926;
+}
+
+/* Colors ====================  */
+
+.ml-blue-text {
+  color: #03264c;
+}
+.ml-lb-text {
+  color: #1259c3;
+}
+.ml-dark-text {
+  color: #666;
+}
+.ml-light-text {
+  color: #ebebeb;
+}
+.ml-green-text {
+  color: #39b54a;
+}
+
+.ml-yellow-bg {
+  background-color: #eac926;
+}
+.ml-blue-bg {
+  background-color: #03264c;
+}
+.ml-lb-bg {
+  background-color: #31259c;
+}
+.ml-dark-bg {
+  background-color: #666;
+}
+.ml-light-bg {
+  background-color: #ebebeb;
+}
+.ml-green-bg {
+  background-color: #39b54a;
+}
