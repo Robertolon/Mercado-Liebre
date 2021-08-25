@@ -10,6 +10,26 @@ body {
   display: inline;
 }
 
+.header-position {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+.logo-style {
+  width: 200px;
+}
+.searchbar {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.searchbar input,
+.searchbar button {
+  background-color: white;
+  border: none;
+  height: 30px;
+}
 .ml-main-nav ul {
   list-style-type: none;
   padding-left: 0;
@@ -31,6 +51,7 @@ body {
   border-radius: 5px;
   height: 45px;
   background-color: blue;
+  margin-top: 10px;
 }
 
 .burger-menu i {
@@ -40,17 +61,22 @@ body {
 #main-content {
   padding: 0 5%;
 }
+.article-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
 .product-wrapper {
   padding: 15px;
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  border: 1px solid #ebebeb;
 }
 .product {
   border: 1px solid #ebebeb;
 }
 
 .product-content {
-  position: relative;
   border-top: 1px solid #ebebeb;
+  position: relative;
 }
 .product-content .text-desc {
   display: none;
@@ -80,10 +106,13 @@ body {
   display: flex;
 }
 
-/*====FOOYER==============*/
 .ml-footer-section {
   text-align: center;
   padding: 50px;
+  margin-top: 50px;
+}
+.footer-img:hover {
+  color: green;
 }
 .ml-footer-section h4 {
   margin-bottom: 0%;
@@ -96,7 +125,7 @@ body {
   color: blue;
   font-size: 2em;
 }
-/* formularios================*/
+
 .h1-form {
   padding: 0px 30px;
   font-style: italic;
@@ -109,6 +138,9 @@ body {
   border: none;
   color: white;
   border-radius: 5px;
+}
+.boton-estilo:hover {
+  background-color: grey;
 }
 .estilo-formulario {
   padding: 0% 5%;
@@ -126,4 +158,43 @@ body {
 }
 .style-checbox {
   padding: 5% 0%;
+}
+
+.borde {
+  border: 10px solid salmon;
+  position: relative;
+}
+.borde img {
+  width: 100%;
+}
+.tt {
+  position: absolute;
+  background-color: rgb(46, 139, 87);
+  color: white;
+  font-size: 26px;
+  left: 0px;
+  bottom: 0%;
+  width: 100%;
+  margin: 0%;
+}
+.usuario {
+  text-align: center;
+  width: 100%;
+  display: inline-grid;
+  padding: 30px 60px;
+  margin: auto;
+}
+.usuario input {
+  border-radius: 5px;
+  border: none;
+  font-size: 120%;
+}
+
+.login-style {
+  background-color: rgb(243, 241, 241);
+}
+.login-boton {
+  text-align: center;
+  display: grid;
+  padding: 0px 80px;
 }

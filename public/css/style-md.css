@@ -1,8 +1,61 @@
-@media (min-width: 768px) {
-  .burger-menu {
-    display: none;
-  }
-  .product-wrapper {
-    width: 25%;
-  }
+.ml-main-nav li {
+  margin: 0px 3px;
+}
+.product-wrapper {
+  width: 25%;
+}
+.descripciones {
+  display: none;
+}
+.product-wrapper:hover .descripciones {
+  display: block;
+}
+.product-wrapper {
+  padding: 15px;
+  box-shadow: none;
+  border: 1px solid #ebebeb;
+}
+.product-wrapper:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.truck-icon {
+  transition: transform ease-in-out 500ms;
+}
+
+.product-wrapper:hover .truck-icon {
+  transform: rotate(360deg);
+}
+.ml-footer-section {
+  display: flex;
+}
+
+.footer-style {
+  flex-wrap: nowrap;
+  padding: 0px 10px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
 }

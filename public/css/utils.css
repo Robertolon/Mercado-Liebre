@@ -12,21 +12,23 @@
 .padding {
   padding: 0px 5px;
 }
+.main-padding {
+  padding: 10px;
+}
 .w-100 {
   width: 100%;
 }
-.align-center {
-  align-items: center;
+.padding-8 {
+  padding: 8px;
 }
-.justify-center {
-  justify-content: center;
-}
-.article-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .flex {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
-  justify-content: space-between;
+}
+.no-wrap {
+  flex-wrap: nowrap;
+}
+.margin {
+  margin: 10px;
 }
