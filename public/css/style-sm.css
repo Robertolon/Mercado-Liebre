@@ -5,6 +5,7 @@
 .main-header {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .ml-main-nav ul {
   list-style-type: none;

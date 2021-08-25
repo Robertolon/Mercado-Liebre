@@ -198,3 +198,10 @@ body {
   display: grid;
   padding: 0px 80px;
 }
+.main-color {
+  background-color: rgb(243, 241, 241);
+}
+.xx {
+  display: flex;
+  justify-content: center;
+}
