@@ -198,3 +198,10 @@ body {
   display: grid;
   padding: 0px 80px;
 }
+
+@media (min-width: 1200px) {
+  .main-header,
+  .ml-main-nav {
+    max-width: 1200px;
+  }
+}
